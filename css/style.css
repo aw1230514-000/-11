@@ -1,0 +1,241 @@
+@charset "utf-8";
+@import url("common.css");
+
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+  font-family:'Times New Roman', Times, serif ;
+}
+section{
+  width: 960px;
+  margin: 90px auto;
+}
+main{
+  padding: 0 4%;
+
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header{
+  margin: 50px 50px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+#log{
+  margin-bottom: -40px;
+  margin-right: auto;
+}
+#inst{
+  width: 30px;
+}
+header nav ul{
+  list-style-type: none;
+  display: flex;
+}
+ul li{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+#mainvisual img{
+  width: 100%;
+  height: 420px;
+}
+#pc{
+  display: block !important;
+}
+#sp{
+  display: none !important;
+}
+/*-------------------------------------------
+About
+-------------------------------------------*/
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+#about{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works img{
+  width: 190px;
+}
+#works{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+#news{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+time{
+  margin-right: 20px;
+}
+#news p{
+  border-bottom: 1px solid #bebebe;
+  padding: 20px;
+}
+#test_news{
+  border-top: 1px solid #bebebe;
+}
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#foam label{
+  display: flex;
+}
+.foam_text{
+  width: 100px;
+}
+.text_area{
+  width: 90%;
+}
+.textarea1{
+  height: 10em;
+}
+label{
+  margin-bottom: 20px;
+}
+#contact{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  background-color: black;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+}
+#button{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px){
+
+  /*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+
+  header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  header nav{
+    display: block;
+    width: 100%;
+
+  }
+  header nav ul{
+    justify-content: space-around;
+  }
+  ul li{
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #log{
+    margin-bottom: 0px;
+    text-align: center;
+  }  
+  /*-------------------------------------------
+    Mainvisual
+  -------------------------------------------*/
+
+  #pc{
+    display: none !important;
+  }
+  #sp{
+    display: block !important;
+  }
+/*-------------------------------------------
+About
+-------------------------------------------*/
+
+  #about{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  /*-------------------------------------------
+Works
+-------------------------------------------*/
+#works{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#works img{
+  width: 100%;
+}
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+time{
+  display: block;
+}
+#news{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#contact{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#foam label{
+  display: block;
+}
+.text_area{
+  width: 100%;
+}
+
+}
+
+
